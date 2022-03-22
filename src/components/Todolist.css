@@ -1,0 +1,25 @@
+main {
+    background-color: #664981;
+}
+    main > * {
+        width: 600px;
+        max-width: 90%;
+        margin: 30px auto;
+        background-color: rgba(255,255,255,.2);
+    }
+    main > div {
+        padding: 15px;
+    }
+    main > ul {
+        list-style: none;
+        padding: 0;
+    }
+        main > ul li {
+            padding: 15px;
+            border-bottom: solid 1px #664981;
+            font-size: 1.3rem;
+            color: #f3f3f3;
+        }
+        .item-done {
+            opacity: .3;
+        }
